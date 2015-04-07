@@ -1,5 +1,5 @@
 ## What is simple-redis-cluster-client (SRCC)?
-SRCC is a Java API on top of Jedis 2.6 which shares keys between Redis 2.8 hosts running in stand alone mode. It allows Redis 2.8 servers which doesn't support clustering to horizontally scale.
+SRCC is a Java API on top of Jedis 2.6 which distributes keys between Redis 2.8 hosts running in stand alone mode. It allows Redis 2.8 servers which doesn't support clustering to horizontally scale.
 
 ## How to Use It?
 1> Start Redis 2.8 nodes in stand alone mode (You can use configuration file @ srcc/release/redisNonCluster.conf).
